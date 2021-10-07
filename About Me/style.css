@@ -1,0 +1,61 @@
+body{
+    margin: 10px;
+    padding: 30px;
+    border: black 7.5px solid;
+    border-radius: 25px;
+    background-color: rgb(228, 222, 222);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 100;
+}
+
+h1{
+    text-align: center;
+}
+
+h1,h3{
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#photo img {
+    width: 250px;
+}
+
+#photo {
+    flex-basis: 25%;
+}
+
+#about-me{
+    flex-basis: 70%;
+}
+
+#social-connect{
+    flex-basis: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+#social-connect *{
+    margin-left: 20px;
+}
+
+#skills{
+    margin-left: 15%;
+    flex-basis: 50%;
+}
+
+#hobbies{
+    flex-basis: 30%; 
+}
+
+#conclusion{
+    margin-left: 18%;
+}
+
+
